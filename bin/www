@@ -1,0 +1,5 @@
+let app = require('../server/server');
+let port = 8000
+app.listen(port, ()=>{
+    console.log('your server running under port number '+port);
+})
